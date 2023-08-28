@@ -1,0 +1,32 @@
+@use 'base' as *;
+@use 'variables' as *;
+
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;  
+    }
+}
+
+body {
+    height: 100vh;
+}
+main {
+    // background-image: url(/images/laptop.jpg);
+    // background-size:cover;
+    // color: #ffffff;
+    height: 100vh;
+}
+
+.backimg {
+    height: 100vh;
+    overflow:auto;
+}
+
+.icon {
+    max-width: 15px; 
+    max-height: 15px;
+}
